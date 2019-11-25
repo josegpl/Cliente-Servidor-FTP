@@ -1,29 +1,31 @@
-# Simple-FTP-Server-and-Client
+# Cliente- Servidor FTP
 
-A small exercise for protocol design and sockets programming.
+Usando sockets em Python 3.7
 
-Language used: Python 2
+Para executar o Servidor:
 
-Server execution:
-
-    python serv.py <port_number>
-    python serv.py -t 1 <port_number>     for threaded version
-    python serv.py -t 2 <port_number>     for forking version
+    python serv.py <numero da porta>
+  
     
-Client execution:
+Cliente:
 
-    python cli.py <server_address> <port_number>
+    python cli.py <URLservidor> <numero porta>
+    
+Exemplo:
 
-Supported commands:
+python serv.py 50000
 
-    'get <file name>' downloads file <file name> from the server
+-
+python cli.py localhost 50000
 
-    'put <file name>' uploads file <file name> to the server
+Comandos
 
-    'ls' lists files on the server
+    'get <nome>' download arquivo do servidor
 
-    'quit' disconnects from the server and exits
+    'put <nome>' upload arquivo para servidor
 
-    'lls' lists files on the client
+    'ls' lista os arquivos no servidor
 
-    'help' prints the help string
+    'quit' desconecta
+
+
