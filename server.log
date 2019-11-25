@@ -1,0 +1,101 @@
+20:54:14 PID:13180 MainThread >>>>> SERVER LISTENING ON PORT 50000 <<<<<
+20:54:14 PID:13180 MainThread Server starting in normal mode
+20:58:35 PID:13180 MainThread New client accepted HOST: 127.0.0.1 PORT: 60842
+20:58:35 PID:13180 MainThread 127.0.0.1:60842 socket connection broken
+20:59:37 PID:11756 MainThread >>>>> SERVER LISTENING ON PORT 50000 <<<<<
+20:59:37 PID:11756 MainThread Server starting in normal mode
+20:59:56 PID:11756 MainThread New client accepted HOST: 127.0.0.1 PORT: 60851
+20:59:58 PID:11756 MainThread 127.0.0.1:60851 socket connection broken
+21:06:54 PID:11756 MainThread New client accepted HOST: 127.0.0.1 PORT: 60874
+21:07:01 PID:11756 MainThread >>>>>>>> SERVER CLOSED <<<<<<<<
+21:11:45 PID:8940 MainThread >>>>> SERVER LISTENING ON PORT 50000 <<<<<
+21:11:45 PID:8940 MainThread Server starting in normal mode
+21:12:01 PID:8940 MainThread New client accepted HOST: 127.0.0.1 PORT: 60889
+21:12:02 PID:8940 MainThread EXECUTE 127.0.0.1:60889	ls
+21:12:02 PID:8940 MainThread SUCCESS 127.0.0.1:60889	ls
+21:12:57 PID:8940 MainThread EXECUTE 127.0.0.1:60889	get protocol_design.txt
+21:12:57 PID:8940 Thread-1 Opened data socket 60890 for 127.0.0.1:50000
+21:12:57 PID:8940 Thread-1 Connected data socket 60890 for 127.0.0.1:50000 through 127.0.0.1:60891
+21:12:57 PID:8940 Thread-1 SUCCESS sent 'protocol_design.txt' to 127.0.0.1:60890
+21:12:57 PID:8940 Thread-1 Closed data socket 60890 for 127.0.0.1:50000
+21:14:27 PID:8940 MainThread EXECUTE 127.0.0.1:60889	get protocol_design.txt
+21:14:27 PID:8940 Thread-2 Opened data socket 60895 for 127.0.0.1:50000
+21:14:27 PID:8940 Thread-2 Connected data socket 60895 for 127.0.0.1:50000 through 127.0.0.1:60896
+21:14:27 PID:8940 Thread-2 SUCCESS sent 'protocol_design.txt' to 127.0.0.1:60895
+21:14:27 PID:8940 Thread-2 Closed data socket 60895 for 127.0.0.1:50000
+21:15:12 PID:8940 MainThread EXECUTE 127.0.0.1:60889	get protocol.design.txt
+21:15:12 PID:8940 Thread-3 FAILURE get failed. 'protocol.design.txt' is not a file
+21:15:22 PID:8940 MainThread EXECUTE 127.0.0.1:60889	get protocol_design.txt
+21:15:22 PID:8940 Thread-4 Opened data socket 60900 for 127.0.0.1:50000
+21:15:22 PID:8940 Thread-4 Connected data socket 60900 for 127.0.0.1:50000 through 127.0.0.1:60901
+21:15:22 PID:8940 Thread-4 SUCCESS sent 'protocol_design.txt' to 127.0.0.1:60900
+21:15:22 PID:8940 Thread-4 Closed data socket 60900 for 127.0.0.1:50000
+21:15:44 PID:8940 MainThread EXECUTE 127.0.0.1:60889	get protocol_design.txt
+21:15:44 PID:8940 Thread-5 Opened data socket 60904 for 127.0.0.1:50000
+21:15:44 PID:8940 Thread-5 Connected data socket 60904 for 127.0.0.1:50000 through 127.0.0.1:60905
+21:15:44 PID:8940 Thread-5 SUCCESS sent 'protocol_design.txt' to 127.0.0.1:60904
+21:15:44 PID:8940 Thread-5 Closed data socket 60904 for 127.0.0.1:50000
+21:19:12 PID:8940 MainThread EXECUTE 127.0.0.1:60889	get protocol_design.txt
+21:19:12 PID:8940 Thread-6 Opened data socket 60938 for 127.0.0.1:50000
+21:19:12 PID:8940 Thread-6 Connected data socket 60938 for 127.0.0.1:50000 through 127.0.0.1:60939
+21:19:12 PID:8940 Thread-6 SUCCESS sent 'protocol_design.txt' to 127.0.0.1:60938
+21:19:12 PID:8940 Thread-6 Closed data socket 60938 for 127.0.0.1:50000
+21:21:25 PID:8940 MainThread EXECUTE 127.0.0.1:60889	get protocol_design.txt
+21:21:25 PID:8940 Thread-7 Opened data socket 60967 for 127.0.0.1:50000
+21:21:25 PID:8940 Thread-7 Connected data socket 60967 for 127.0.0.1:50000 through 127.0.0.1:60968
+21:21:25 PID:8940 Thread-7 SUCCESS sent 'protocol_design.txt' to 127.0.0.1:60967
+21:21:25 PID:8940 Thread-7 Closed data socket 60967 for 127.0.0.1:50000
+21:22:53 PID:8940 MainThread EXECUTE 127.0.0.1:60889	get protocol_design.txt
+21:22:53 PID:8940 Thread-8 Opened data socket 60978 for 127.0.0.1:50000
+21:22:53 PID:8940 Thread-8 Connected data socket 60978 for 127.0.0.1:50000 through 127.0.0.1:60979
+21:22:53 PID:8940 Thread-8 SUCCESS sent 'protocol_design.txt' to 127.0.0.1:60978
+21:22:53 PID:8940 Thread-8 Closed data socket 60978 for 127.0.0.1:50000
+21:26:21 PID:8940 MainThread EXECUTE 127.0.0.1:60889	get protocol_design.txt
+21:26:21 PID:8940 Thread-9 Opened data socket 60987 for 127.0.0.1:50000
+21:26:21 PID:8940 Thread-9 Connected data socket 60987 for 127.0.0.1:50000 through 127.0.0.1:60988
+21:26:21 PID:8940 Thread-9 SUCCESS sent 'protocol_design.txt' to 127.0.0.1:60987
+21:26:21 PID:8940 Thread-9 Closed data socket 60987 for 127.0.0.1:50000
+21:26:44 PID:8940 MainThread EXECUTE 127.0.0.1:60889	get protocol_design.txt
+21:26:44 PID:8940 Thread-10 Opened data socket 60989 for 127.0.0.1:50000
+21:26:44 PID:8940 Thread-10 Connected data socket 60989 for 127.0.0.1:50000 through 127.0.0.1:60990
+21:26:44 PID:8940 Thread-10 SUCCESS sent 'protocol_design.txt' to 127.0.0.1:60989
+21:26:44 PID:8940 Thread-10 Closed data socket 60989 for 127.0.0.1:50000
+21:27:10 PID:8940 MainThread EXECUTE 127.0.0.1:60889	put protocol_design.txt
+21:27:10 PID:8940 Thread-11 Opened data socket 60991 for 127.0.0.1:50000
+21:27:10 PID:8940 Thread-11 Connected data socket 60991 for 127.0.0.1:50000 through 127.0.0.1:60992
+21:28:46 PID:8940 MainThread EXECUTE 127.0.0.1:60889	get server.txt
+21:28:46 PID:8940 Thread-12 FAILURE get failed. 'server.txt' is not a file
+21:28:52 PID:8940 MainThread EXECUTE 127.0.0.1:60889	ls
+21:28:52 PID:8940 MainThread SUCCESS 127.0.0.1:60889	ls
+21:29:11 PID:8940 MainThread 127.0.0.1:60889 socket connection broken
+21:31:03 PID:256 MainThread >>>>> SERVER LISTENING ON PORT 50000 <<<<<
+21:31:03 PID:256 MainThread Server starting in normal mode
+21:31:17 PID:256 MainThread New client accepted HOST: 127.0.0.1 PORT: 61008
+21:31:19 PID:256 MainThread EXECUTE 127.0.0.1:61008	ls
+21:31:19 PID:256 MainThread SUCCESS 127.0.0.1:61008	ls
+21:31:32 PID:256 MainThread EXECUTE 127.0.0.1:61008	get protocol_design.txt
+21:31:32 PID:256 Thread-1 Opened data socket 61011 for 127.0.0.1:50000
+21:31:32 PID:256 Thread-1 Connected data socket 61011 for 127.0.0.1:50000 through 127.0.0.1:61012
+21:31:32 PID:256 Thread-1 SUCCESS sent 'protocol_design.txt' to 127.0.0.1:61011
+21:31:32 PID:256 Thread-1 Closed data socket 61011 for 127.0.0.1:50000
+21:31:50 PID:256 MainThread EXECUTE 127.0.0.1:61008	put protocol_design.txt
+21:31:50 PID:256 Thread-2 Opened data socket 61013 for 127.0.0.1:50000
+21:31:50 PID:256 Thread-2 Connected data socket 61013 for 127.0.0.1:50000 through 127.0.0.1:61014
+21:31:50 PID:256 Thread-2 SUCCESS retrieved 'protocol_design.txt' from 127.0.0.1:61013 and saved as 'protocol_design(12).txt'
+21:31:50 PID:256 Thread-2 Closed data socket 61013 for 127.0.0.1:50000
+21:36:04 PID:256 MainThread EXECUTE 127.0.0.1:61008	ls
+21:36:04 PID:256 MainThread SUCCESS 127.0.0.1:61008	ls
+21:37:36 PID:256 MainThread EXECUTE 127.0.0.1:61008	get teste.txt
+21:37:36 PID:256 Thread-3 Opened data socket 61163 for 127.0.0.1:50000
+21:37:36 PID:256 Thread-3 Connected data socket 61163 for 127.0.0.1:50000 through 127.0.0.1:61164
+21:37:36 PID:256 Thread-3 SUCCESS sent 'teste.txt' to 127.0.0.1:61163
+21:37:36 PID:256 Thread-3 Closed data socket 61163 for 127.0.0.1:50000
+21:38:09 PID:256 MainThread EXECUTE 127.0.0.1:61008	put teste(1).txt
+21:38:09 PID:256 Thread-4 Opened data socket 61166 for 127.0.0.1:50000
+21:38:09 PID:256 Thread-4 Connected data socket 61166 for 127.0.0.1:50000 through 127.0.0.1:61167
+21:38:09 PID:256 Thread-4 SUCCESS retrieved 'teste(1).txt' from 127.0.0.1:61166 and saved as 'teste(1)(1).txt'
+21:38:09 PID:256 Thread-4 Closed data socket 61166 for 127.0.0.1:50000
+21:38:19 PID:256 MainThread 127.0.0.1:61008 socket connection broken
+21:40:56 PID:256 MainThread New client accepted HOST: 127.0.0.1 PORT: 61191
+21:40:59 PID:256 MainThread EXECUTE 127.0.0.1:61191	quit
+21:40:59 PID:256 MainThread SUCCESS 127.0.0.1:61191	quit
