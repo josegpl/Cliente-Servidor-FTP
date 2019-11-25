@@ -9,7 +9,7 @@ Para executar o Servidor:
     
 Cliente:
 
-    python cli.py <URLservidor> <numero porta>
+    python cli.py <URLservidor> <numero porta> (se executado localmente, então URLservidor = localhost)
     
 Exemplo:
 
