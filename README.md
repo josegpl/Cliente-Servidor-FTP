@@ -28,4 +28,6 @@ Comandos
 
     'quit' desconecta
 
+Exemplos de teste feito com o sistema:
+
 
